@@ -13,12 +13,13 @@ LEDs for optogenetics.
 
 2021-2023 Antonio González
 
-## Files
+## Design summary
 
-The device consists of hardware, which is based on a Raspberry Pico
-microcontroller and a capacitive touch sensor, and software (firmware)
-that allows the touch sensor to be used with the Pico.
+The device can be built with a Raspberry Pi Pico microcontroller board
+and a capacitive touch sensor. The details are in the `PCB` directory in
+this repository.
 
-Details of the harware are included in the `PCB` directory in this
-repository. The firmware can be found in a sepparate repository:
+In addition, to be able to use the touch sensor with the Pico, a
+software library (firmware) is required. This firmware can be found in a
+separate repository:
 [antgon/pico-mpr121](https://github.com/antgon/pico-mpr121).
